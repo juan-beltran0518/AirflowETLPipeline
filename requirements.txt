@@ -1,0 +1,13 @@
+# Core dependencies for local development
+apache-airflow==2.9.3
+pandas==2.2.2
+
+# Additional dependencies that might be useful
+# numpy>=1.21.0
+# matplotlib>=3.5.0
+# seaborn>=0.11.0
+
+# Development dependencies
+# pytest>=6.0.0
+# black>=22.0.0
+# flake8>=4.0.0
