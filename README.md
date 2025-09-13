@@ -21,7 +21,7 @@ Pipeline ETL de demostración con Apache Airflow para procesar datos de ventas y
 
 1. **Clona el repositorio:**
    ```bash
-   git clone <tu-repo-url>
+   git clone https://github.com/juan-beltran0518/AirflowETLPipeline.git
    cd airflow-demo
    ```
 
@@ -114,18 +114,4 @@ Los logs se almacenan en la carpeta `logs/` y están organizados por:
 - Run ID
 - Task ID
 
-## 🤝 Contribuciones
 
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## 🏷️ Tags
-
-`airflow` `etl-pipeline` `data-processing` `pandas` `docker` `csv-processing` `sales-analytics` `python`
