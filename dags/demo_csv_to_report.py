@@ -5,7 +5,7 @@ This DAG processes sales data from CSV files and generates aggregated reports
 by product category. The pipeline includes data validation, transformation,
 and output verification steps.
 
-Author: [Tu Nombre]
+Author: Ivan Santiago Torres/Juan Sebastián Beltran
 Created: September 2025
 """
 
@@ -14,7 +14,6 @@ from airflow.decorators import dag, task
 import pandas as pd
 from pathlib import Path
 
-# Configuration constants
 DATA_DIR = Path("/opt/airflow/data")
 INPUT_FILE = DATA_DIR / "sales.csv"
 OUTPUT_FILE = DATA_DIR / "report_sales_by_category.csv"
@@ -22,7 +21,7 @@ OUTPUT_FILE = DATA_DIR / "report_sales_by_category.csv"
 @dag(
     dag_id="demo_csv_to_report",
     start_date=datetime(2025, 1, 1),
-    schedule=None,          # ejecútalo manualmente
+    schedule=None,         
     catchup=False,
     tags=["demo", "pandas", "csv"],
 )
